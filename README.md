@@ -1,61 +1,53 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Controle Financeiro Pessoal
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Este é um projeto de **Controle Financeiro Pessoal** desenvolvido como parte do meu aprendizado em programação back-end com PHP e Laravel.
 
-## About Laravel
+O objetivo principal é registrar entradas e saídas de dinheiro, permitindo um controle simples, prático e pessoal das finanças.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+> 💡 Este projeto está sendo feito de forma independente, como exercício prático de estudo, pesquisa e aprendizado.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 🔍 Funcionalidades
 
-## Learning Laravel
+- Cadastro de receitas e despesas
+- Visualização da tabela de transações
+- Exibição do saldo total
+- Identificação de contas parceladas (com número de parcelas)
+- Identificação de quem é o dono da conta (em caso de cartão emprestado, por exemplo)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+> Futuramente pretendo melhorar o layout, adicionar filtros, gráficos e relatórios.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## ⚙️ Tecnologias Utilizadas
 
-## Laravel Sponsors
+- [Laravel](https://laravel.com/)
+- PHP
+- MySQL
+- Blade (sistema de templates do Laravel)
+- HTML5 / CSS3
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+## 🧠 Objetivo Pessoal
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+Este projeto tem sido essencial para:
 
-## Contributing
+- Entender o padrão MVC (Model-View-Controller)
+- Aplicar o padrão Repository no Laravel
+- Praticar o uso de rotas, migrations e Eloquent ORM
+- Refletir meu progresso no GitHub de forma organizada
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+---
 
-## Code of Conduct
+## 📝 Considerações Finais
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Este sistema foi criado como parte do meu processo de aprendizado.  
+Muitos recursos ainda serão implementados e ajustados conforme eu evoluo no estudo de desenvolvimento back-end.
 
-## Security Vulnerabilities
+A ideia é deixar registrado meu progresso, mostrando que errar, pesquisar e refatorar faz parte do caminho de quem está aprendendo.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+---
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+📌 _Projeto pessoal e em constante melhoria, feito com curiosidade, prática e vontade de aprender._
